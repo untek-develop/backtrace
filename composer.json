@@ -1,0 +1,20 @@
+{
+  "name": "untek-develop/backtrace",
+  "type": "extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zn Developer",
+      "email": "zndev@ya.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Untek\\Develop\\Backtrace\\": "src",
+      "Untek\\Develop\\Backtrace\\Tests\\": "tests"
+    }
+  }
+}
