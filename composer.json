@@ -10,11 +10,13 @@
   ],
   "minimum-stability": "dev",
   "require": {
+
   },
   "autoload": {
     "psr-4": {
       "Untek\\Develop\\Backtrace\\": "src",
-      "Untek\\Develop\\Backtrace\\Tests\\": "tests"
+      "Untek\\Develop\\Backtrace\\Tests\\": "tests",
+      "axy\\backtrace\\": "backtrace/src"
     }
   }
 }
